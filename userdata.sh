@@ -1,7 +1,7 @@
 #!/bin/bash
 yum install git -y
 git clone https://github.com/cs220s26/champagne_cicd /champagne_cicd
-cd /<repo_name>
+cd /champagne_cicd
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt 
 cp web_counter.service /etc/systemd/system
